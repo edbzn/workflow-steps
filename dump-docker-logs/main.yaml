@@ -3,4 +3,4 @@ description: 'Dump Docker logs'
 
 definition:
   using: 'node'
-  post: tools/ci/workflow-steps/dump-docker-logs/post.js
+  post: dump-docker-logs/post.js
