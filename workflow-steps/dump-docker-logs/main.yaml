@@ -1,0 +1,6 @@
+name: 'Dump Docker logs'
+description: 'Dump Docker logs'
+
+definition:
+  using: 'node'
+  post: tools/ci/workflow-steps/dump-docker-logs/post.js
